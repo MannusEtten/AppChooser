@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsriAppChooser", "EsriAppChooser.csproj", "{D0E87068-EF6A-4F98-873A-AE08226182BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsriAppChooser.UnitTests", "EsriAppChooser.UnitTests\EsriAppChooser.UnitTests.csproj", "{1C18E72E-0EA6-459F-AAE9-7BEA4FAD1D6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2C1EE4AF-A181-49F9-975F-74A41D658A26}"
+	ProjectSection(SolutionItems) = preProject
+		EsriAppChooser.vsmdi = EsriAppChooser.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = EsriAppChooser.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0E87068-EF6A-4F98-873A-AE08226182BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0E87068-EF6A-4F98-873A-AE08226182BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0E87068-EF6A-4F98-873A-AE08226182BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0E87068-EF6A-4F98-873A-AE08226182BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C18E72E-0EA6-459F-AAE9-7BEA4FAD1D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C18E72E-0EA6-459F-AAE9-7BEA4FAD1D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C18E72E-0EA6-459F-AAE9-7BEA4FAD1D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C18E72E-0EA6-459F-AAE9-7BEA4FAD1D6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
